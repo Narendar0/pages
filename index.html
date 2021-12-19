@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #overAll{
+            border: 1px solid gray;
+        }
+        #top{
+            margin: 20px 20px 20px 20px;
+        }
+        #bottom{
+            margin: 20px 20px 20px 20px;
+            border: 1px solid mediumturquoise;
+            display:flex;
+            flex-direction: row;
+
+        }
+        #left{
+            width: 25%;
+        
+        }
+        #right{
+            width:75%;
+            padding-left: 100px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id='overAll'>
+        <div id= 'top'>
+        <h1 style='text-align: center;'>EVENT 1</h1>
+        <h3 style="text-align: center;"> NUMBER OF AVAILABLE SEATS</h3>
+    </div>
+    <div id ='bottom'>
+       
+        <div id='right'>
+                <label for="n">Name</label>
+                <input type="text" name="n" id="n"> <br>
+                <br>
+                <label for="e">Email</label>
+                <input type="email" name="e" id="e"> <br> <br>
+                <label for="p">Phone Number</label>
+                <input type="text" name="p" id="p">
+                <br> <br>
+                <label for="m">Number Of Seats</label>
+                <input type="number" name="m" id="m"> <br> <br>
+                <label for="m">Name Of Attendee 2</label>
+                <input type="text" name="m" id="m"> <br> <br>
+                
+                <input type="submit" value="submit" style="padding: 5px 5px 5px 5px;">
+                <input type="button" value="Cancel" style="padding: 5px 5px 5px 5px;">
+        </div>
+    </div>
+    </div>
+</body>
+</html>
